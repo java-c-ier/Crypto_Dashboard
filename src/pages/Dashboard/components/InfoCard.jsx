@@ -8,6 +8,7 @@ const InfoCard = ({ imgUrl, text, tagText, inverted }) => {
       bgImage={imgUrl}
       bgSize="cover"
       bgRepeat="no-repeat"
+      mb="6"
     >
       <Tag
         color={inverted ? "p.purple" : "white"}
